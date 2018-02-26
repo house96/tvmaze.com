@@ -1,0 +1,36 @@
+.t-search {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  border-bottom: 1px dotted #aaa;
+}
+
+.t-search input {
+  width: 100%;
+  max-width: 400px;
+  padding: 5px;
+}
+
+.t-search button {
+  flex: none;
+  margin-left: 20px;
+  padding: 5px 20px;
+}
+
+.t-search-loader {
+  text-align-last: center;
+}
+
+.t-search-result {
+  margin-top: 20px;
+}
+
+.t-search-result ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+}

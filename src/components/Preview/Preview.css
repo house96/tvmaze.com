@@ -1,0 +1,27 @@
+.t-preview {
+  width: 320px;
+  padding: 0 20px 20px;
+}
+
+.t-preview__header {
+  text-align: center;
+}
+
+.t-preview__header a {
+  display: block;
+}
+
+.t-preview__image {
+  height: 300px;
+  overflow: hidden;
+}
+
+.t-preview__image img {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.t-preview__summary {
+  text-align: center;
+}
